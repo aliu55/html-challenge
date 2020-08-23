@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+  </head>
+  <body>
+    <form>
+      First Name:
+      <input type="text" placeholder="John" required name="firstname" /><br />
+      Last Name:
+      <input type="text" placeholder="Smith" required name="lastname" /><br />
+      Email:
+      <input
+        type="email"
+        placeholder="johnsmith@gmail.com"
+        required
+        name="email"
+      /><br />
+      Password: <input type="password" required name="password" /><br />
+      Which course(s) are you signing up for? <br />
+      <select name="courses" multiple>
+        <option value="web">Complete Web Developer</option>
+        <option value="js">Advnaced Javascript</option>
+        <option value="python">Complete Python</option>
+      </select>
+      <br />
+      Would you like to sign up for our ZTM Monthly Newsletter? <br />
+      <input type="radio" name="newsletter" value="yes" />Of course! I love spam
+      emails! <br />
+      <input type="radio" name="newsletter" value="no" />No. Get out of my life.
+      <br />
+      <input type="submit" />
+    </form>
+    <br />
+    <br />
+    <br />
+    <br />
+    <a href="index.html">Back to Home Page</a>
+  </body>
+</html>
